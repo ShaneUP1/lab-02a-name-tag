@@ -1,0 +1,48 @@
+body, html {
+    box sizing: border box;
+    height: 100%;
+    background-color: grey;
+}
+
+main {
+    width: 380px;
+    height: 270px;
+    background-color: red;
+    border-radius: 12px;
+}
+
+p {
+    margin:0;
+}
+
+.hello {
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.intro {
+    font-size: 2em;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: .3em;
+}
+
+section {
+    text-align: center;
+    font-family: cursive;
+    background-color: white;
+    height: 110px;
+    font-size: 2em;
+}
+
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
