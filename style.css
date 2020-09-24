@@ -1,5 +1,6 @@
+* {box-sizing: border box;}
+
 body, html {
-    box sizing: border box;
     height: 100%;
     background-color: grey;
 }
@@ -13,6 +14,12 @@ main {
 
 p {
     margin:0;
+}
+
+.submit-button {
+    font-family: sans-serif;
+    padding: 3px;
+    margin-top: 3px;
 }
 
 .hello {
